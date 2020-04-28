@@ -1,0 +1,51 @@
+*,
+html,
+body {
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #1f3144;
+  /* background-image: url("C:\Users\2RJ27LA_RS5\Desktop\Codellege\TypeScript\RxJS\assets\img\img.png");} */
+}
+h1 {
+  font-weight: lighter;
+}
+
+#log-container > div {
+  margin-top: 15px;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+
+  background: #000;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar > li {
+  list-style: none;
+  /* background: red; */
+  cursor: pointer;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 0%;
+  background: yellow;
+}
+
+input{
+  color: black;
+}
